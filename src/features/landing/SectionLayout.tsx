@@ -22,6 +22,7 @@ export type SectionLayoutProps = {
    * The class name of the div that contain colors.
    */
   containerClassName?: string;
+  spacing?: string;
 } & ComponentPropsWithoutRef<"div">;
 
 export const SectionLayout = ({
